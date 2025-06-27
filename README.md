@@ -1,8 +1,8 @@
-# MOSIUTER, see the world, free and private
+# MoSIUTER, see the world, free and private
 
 ## Introduction
 
-> MOSIUTER is a modern encryption protocol.
+> MoSIUTER is a modern encryption protocol.
 >
 > This protocol uses multi-mode obfuscation + encryption to transmit your data, ensuring that even if others get your data, they don't know your true intentions, and disguise it like a normal Internet request.
 >
@@ -38,15 +38,6 @@
 >
 > Server: `cd ./mosiuterserver` (Enter first) then `go build`
 >
-> ### Then talk about compiling with MakeFile
->
-> Client: make client
->
-> Server: make server
->
-> Clean up the compiled binary files: make debuild
->
-> Run the build-all script in the directory
 
 ## How to it work?
 

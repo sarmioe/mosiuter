@@ -1,4 +1,4 @@
-# MOSIUTER,看见世界,自由又私密
+# MoSIUTER,看见世界,自由又私密
 
 ## 简介
 
@@ -31,21 +31,12 @@
 >
 > 第0步 需要先CD到根文件夹以及Go语言环境 版本1.23.4
 >
-> ### 首先说用Go build编译 
+> ### 用Go build编译 
 >
 > 客户端:`cd ./mosiuterclient` (先回车) 然后 `go build` 
 >
 > 服务端:`cd ./mosiuterserver` (先回车) 然后 `go build`
 >
-> ### 然后说用MakeFile编译
->
-> 客户端:make client
->
-> 服务端:make server
->
-> 清理编译的二进制文件:make debuild
->
-> 运行目录的build-all脚本
 
 ## 传输协议
 
@@ -114,7 +105,6 @@
 >
 > 11.启用视频或图片压缩
 >
-> 还有更多
 
 ## 运行流程
 

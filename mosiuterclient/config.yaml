@@ -1,0 +1,17 @@
+port : 8670 #mixed
+# socks-port : 8671
+# http-port : 8672
+mode : proxy # proxy / tunnel
+way : rule # rule / globle / reject / derict
+dns :
+  local-dns : enable # enable / disable local dns
+  ipv6 : enable # enable / disable 
+  mode : home # home / erver / dot 
+proxies :
+ - name : test
+   server : #ip/domain
+   port : #8765
+rules :
+ - DOMAIN-SUFFIX , example.com , test
+ - DOMAIN-KEYWORD , example , test
+ - IP-CIDR , 1.1.1.1/8 , test
